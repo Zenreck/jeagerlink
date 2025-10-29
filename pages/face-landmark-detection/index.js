@@ -14,7 +14,7 @@ export default function FaceLandmarkDetection() {
                     style={{
                         fontWeight: "normal"
                     }}>
-                    <Link style={{ fontWeight: "bold" }} href={'/'}>Home</Link> / Face Landmark Detection 🤓
+                    <Link style={{ fontWeight: "bold" }} href={'/'}>Home</Link> / Jeager Head Link
                 </h2>
                 <code style={{ marginBottom: '1rem' }}>Work in progress...</code>
                 {/* <FaceMeshComponent></FaceMeshComponent> */}
