@@ -15,18 +15,18 @@ export default function Home() {
 
       <main className={styles.main} style={{ justifyContent: "center" }}>
         <h1 className={styles.title}>
-          Welcome to <Link href='/'>ml-app!</Link>
+          Welcome to <Link href='/'>Jeager-Link!</Link>
         </h1>
         {/* <FpsCounter /> */}
 
         <div className={styles.grid}>
           <Link href="/hand-pose-detection" className={styles.card}>
-            <h2> Hand Detection &rarr;</h2>
-            <p>Hand pose detection by TensorFlow 👋</p>
+            <h2> Jeager Link &rarr;</h2>
+            <p>Jeager Drift Calibration</p>
           </Link>
           <Link href="/face-landmark-detection" className={styles.card}>
-            <h2> Face Detection &rarr;</h2>
-            <p>Face landmark detection by TensorFlow 🤓</p>
+            <h2> Jeager Body Link &rarr;</h2>
+            <p>Jeager Full Calibration</p>
           </Link>
         </div>
       </main>
